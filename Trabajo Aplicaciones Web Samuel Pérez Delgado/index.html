@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Empresa Electronic-Room</title>
+    <link href="estilos/estilo.css.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="javascripts/misjs.js"></script>
+</head>
+<body>
+   <div id="wrapper">
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="#inicio" class="active">Inicio</a>
+                <a href="#presentacion">Presentación</a>
+                <a href="#objetivos">Objetivos</a>
+                <a href="#Historia">Historia</a>
+                <!--<div class="dropdown">
+                  <button class="dropbtn">Dropdown 
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </div> -->
+                <!--<div class="dropdown">
+                    <button class="dropbtn">Otro más 
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+                      <a href="#">Link 4</a>
+                      <a href="#">Link 5</a>
+                    </div>
+                  </div> -->
+                <a href="#galeria">Productos</a>  
+                <a href="#preguntas">FAQ</a> 
+                <a href="#contacto">Contacto</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+              </div>
+              
+        </nav>
+       
+        <header id="inicio">
+            <div class="texto-hero">
+              <h3>Electronic-Room</h3>
+              <p>La tecnología del futuro</p>
+              <a href="#presentacion">Descúbrela</a>
+            </div>
+        </header>       
+        
+        <section id="presentacion">
+            <div class="titulo-seccion">
+              <h2>Electronic-Room</h2>
+              <p>Trabajamos para ofrecerte la tecnología más avanzada</p>
+            </div>
+          
+            <div class="mitad" id="izda">
+               Somos una empresa de venta de productos tecnológicos que ofrece la mejor calidad y comodidad en nuestros productos, además de la mejor relación calidad-precio. Con disponibilidad internacional con agencia propia de envío y con la mayor fiabiliad y rápidez.
+            </div>
+            <div class="mitad" id="dcha">
+              Tenemos franquicias a nivel nacional con 1200 alrededor de toda España e internacionalmente contamos con más de 500 tiendas en países como Francia, Reino Unido, Alemania, EEUU, Uruguay, etc...
+            </div>
+            <div class="final"></div>
+        </section>
+        <section id="objetivos" class="objetivos">
+          Trabajamos cada día para ofrecer a nuestros clientes la mejor relación calidad-precio, contando con una gran plantilla de trabajadores en la cual tenemos como objetivo brindar puestos de trabajo y formación priorizando a los más jóvenes, para favorecer su experiencía laboral. Contando con unos horarios flexibles y facilitandoles una compaginación adecuada con sus estudios. Entre nuestras filosofias de trabajo se encuentra la de anteponer la comodidad del cliente y la de nuestros trabajadores. 
+          Somos una empresa que busca comerciar con todas las marcas para actualizarnos en cada momento, ofreciendo marcas nuevas y pocos conocidas en el mercado. 
+
+        </section>
+
+        <section id="Historia">
+          <div class="titulo-seccion">
+            <h2>Electronic-Room</h2>
+            <p>¿Cómo comenzó?</p>
+          </div>
+          <div class="tercios" id="tres-uno">
+            Si buscas calidad, precio y atención ¡En Electronic-Room está la solución!
+          </div>
+          <div class="tercios" id="tres-dos">
+             Electronic-Room es una empresa joven en el mercado grande, fundada en 2014 por dos emprendedores madrileños llamados Juan Cortez Villalba y Gabriela Beltrán dos informáticos, los cuales empezaron arreglando ordenadores y móviles en un pequeño local en el centro de Málaga, posteriormente, un año y medio después de ser fundada, tuvieron la idea de comenzar a realizar una compra-venta de productos electrónicos, dando así el salto al mercado grande. Compitiendo así directamente con empresas de mayor posición en el mercado de los productos electrónicos. 
+          </div>
+          <div class="tercios" id="tres-tres">
+            Si buscas calidad, precio y atención ¡En Electronic-Room está la solución!
+          </div>
+          <div class="final"></div>
+        </section>
+        <section id="galeria">
+          <div class="titulo-seccion">
+            <h2>Imágenes de productos</h2>
+            <p>Consulta nuestras novedades</p>
+          </div>
+  <div class="container">
+
+  <div class="mySlides">
+    <div class="numbertext">1 / 4</div>
+      <img src="imagenes/televisores.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 4</div>
+      <img src="imagenes/samsung.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 4</div>
+      <img src="imagenes/apple.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 4</div>
+      <img src="imagenes/gaming.jpg" style="width:100%">
+  </div>
+<!--
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+      <img src="img_nature_wide.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="img_snow_wide.jpg" style="width:100%">
+  </div>
+-->
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="imagenes/televisores.jpg" style="width:100%" onclick="currentSlide(1)" alt="TVs">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="imagenes/samsung.jpg" style="width:100%" onclick="currentSlide(2)" alt="Smartphones Samsung">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="imagenes/apple.jpg" style="width:100%" onclick="currentSlide(3)" alt="Iphones">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="imagenes/gaming.jpg" style="width:100%" onclick="currentSlide(4)" alt="Gaming">
+    </div>
+  <!--
+    <div class="column">
+      <img class="demo cursor" src="img_nature.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img_snow.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+    </div>
+  -->
+  </div>
+</div>
+
+        </section>
+        <section id="preguntas">
+          <div class="titulo-seccion">
+            <h2>Preguntas frecuentes</h2>
+          </div>
+
+          <button class="accordion">¿Reparan productos?</button>
+          <div class="panel">
+            <img src="imagenes/reparacion.png" alt="lo que sea">
+            <p>Si, dependiendo del daño este tendrá un coste u otro y será previamente supervisado por nuestro servicio técnico.</p>
+            <p>Además si el producto se mantiene en garantía esto no supondrá un coste adicional.</p>
+          </div>
+
+          <button class="accordion">¿Aceptan pago por Paypal?</button>
+          <div class="panel">
+            <p>Si, aceptamos pago a través de paypal, Visa, Visa Electron 4B, Euro6000, MasterCard, American Express, Maestro Internacional, cuenta bancaria SEPA, Paga en 4 y Credit Line.</p>
+          </div>
+
+          <button class="accordion">¿Se realizan reembolsos?</button>
+          <div class="panel">
+            <p>Si, siempre que no haya pasado un mes desde la compra del del producto y además este se encuentre en buen estado y funcionamiento. </p>
+          </div>
+
+          <button class="accordion">¿Realizan intercambios?</button>
+          <div class="panel">
+            <p>No, solo vendemos.</p>
+          </div>
+
+
+        </section>
+        <section id="contacto">
+          <div class="titulo-seccion">
+            <h2>Contacto</h2>
+          </div>
+          <div class="mitad" id="mapa">
+            <iframe id="mimapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.2563608884902!2d-4.55699608500058!3d36.740417179961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f1d2ffe3a137%3A0xe095a3ea561debe2!2sCalle%20Frederick%20Terman%2C%2029590%2C%20M%C3%A1laga!5e0!3m2!1ses!2ses!4v1582189678693!5m2!1ses!2ses"  frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          </div>
+          <div class="mitad" id="info">
+            <dl>
+              <dt><i class="fa fa-map-marker" aria-hidden="true"></i> Dirección:</dt>
+              <dd>C/ Frederick Terman s/n<br>
+                  29590 - Campanillas</dd>
+              <dt><i class="fa fa-phone" aria-hidden="true"></i> Teléfono:</dt>
+              <dd>123 45 67 89</dd>
+              <dt><i class="fa fa-fax" aria-hidden="true"></i> Fax:</dt>
+              <dd>123 45 67 89</dd>
+              <dt><i class="fa fa-envelope" aria-hidden="true"></i> Correo electrónico:</dt>
+              <dd>Electronic-Room@gmail.com</dd>
+              <dt><i class="horarios" aria-hidden="true"></i> Horarios:</dt>
+              <dd>Lunes a viernes: 10:00-21:00</dd>
+            </dl>
+          </div>
+          <div class="final"></div>
+        </section>
+        <footer>
+
+        </footer>
+   </div>
+   <script>
+       var slideIndex = 1;
+       showSlides(slideIndex);
+
+       var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+
+   </script>
+</body>
+</html>
